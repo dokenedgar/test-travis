@@ -4,3 +4,5 @@ node_js:
 
 before_install:
   - npm i mocha 
+
+after_success: npm run coverage
